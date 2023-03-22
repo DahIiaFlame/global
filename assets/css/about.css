@@ -1,0 +1,56 @@
+
+
+.review {
+    background-color: #3e3e3e;
+}
+.review__inner {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    max-width: 500px;
+    margin: auto;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    gap: 30px;
+}
+
+.review__inner h1 {
+    color: #fff;
+}
+
+.aboutme__inner {
+    display: flex;
+    height: 570px;
+}
+.aboutme .container {
+    padding: 0 0;
+}
+.aboutme__block {
+    flex-basis: 50%;
+    background-color: #e1e1e1;
+}
+.aboutme__text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    background-color: #fff;
+    gap: 40px;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 15px;
+}
+
+
+
+@media (max-width: 990px) {
+    .aboutme__inner {
+        flex-direction: column;
+    }
+    .aboutme__text {
+        padding: 30px 15px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+}

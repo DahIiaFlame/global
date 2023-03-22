@@ -1,0 +1,33 @@
+
+
+.ux-ui {
+    background-color: #f6f6f6;
+}
+
+.ux-ui__inner {
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    max-width: 510px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.more-work {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 990px) {
+    .more-work {
+        grid-template-columns:  1fr 1fr;
+    }
+}
+
+@media (max-width: 770px) {
+    .more-work {
+        grid-template-columns: 1fr;
+    }
+}
